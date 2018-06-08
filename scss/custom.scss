@@ -1,0 +1,97 @@
+body{
+    width: 90%;
+    margin: 0 auto;
+    background:#444;
+}
+h3{
+    color: #444;
+    padding: 3rem;
+}
+h1{
+    color: darken(#444, 10%);
+    padding: 3rem;
+}
+.game__wrapper{
+    margin: 5rem auto;
+    background: rgb(245, 204, 245);
+    padding: 5rem 1rem;
+}
+
+.choices{
+    display: flex;
+    justify-content: space-around;
+
+    svg{
+        display: flex;
+        fill:#444;
+        width: 10rem;
+        height: 10rem;
+        padding: 2rem;
+        outline: .4rem solid #444;
+    }
+}
+
+.score-board{
+    background: #444;
+    width: 30%;
+    margin: 0 auto;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    position: relative;
+}
+
+.green-glow{
+    border: .8rem solid green;
+    box-shadow: 0rem .5rem 2rem black;
+
+}
+.red-glow{
+    border: .8rem solid red;
+    box-shadow: 0rem .5rem 2rem black;
+
+}
+.grey-glow{
+    border: .8rem solid grey;
+    box-shadow: 0rem .5rem 2rem black;
+
+}
+
+#user-label{
+   
+        width: 5rem;
+        height: 1.5rem;
+        display: inline-block;
+        position: absolute;
+        top: 2rem;
+        left:-2rem;
+        background: red;
+        font-size: 1rem; 
+        box-shadow: 0rem .5rem 2rem black;
+        padding: .3rem .5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+
+#comp-label{
+   
+    width: 6rem;
+    height: 1.5rem;
+    display: inline-block;
+    position: absolute;
+    top: 2rem;
+    right:-2rem;
+    background: red;
+    font-size: 1rem; 
+    box-shadow: 0rem .5rem 2rem black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-img{
+    background: red;
+
+}

@@ -1,0 +1,103 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  background: #444; }
+
+h3 {
+  color: #444;
+  padding: 3rem; }
+
+h1 {
+  color: #2b2b2b;
+  padding: 3rem; }
+
+.game__wrapper {
+  margin: 5rem auto;
+  background: #f5ccf5;
+  padding: 5rem 1rem; }
+
+.choices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+  .choices svg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    fill: #444;
+    width: 10rem;
+    height: 10rem;
+    padding: 2rem;
+    outline: .4rem solid #444; }
+
+.score-board {
+  background: #444;
+  width: 30%;
+  margin: 0 auto;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  position: relative; }
+
+.green-glow {
+  border: .8rem solid green;
+  -webkit-box-shadow: 0rem .5rem 2rem black;
+  box-shadow: 0rem .5rem 2rem black; }
+
+.red-glow {
+  border: .8rem solid red;
+  -webkit-box-shadow: 0rem .5rem 2rem black;
+  box-shadow: 0rem .5rem 2rem black; }
+
+.grey-glow {
+  border: .8rem solid grey;
+  -webkit-box-shadow: 0rem .5rem 2rem black;
+  box-shadow: 0rem .5rem 2rem black; }
+
+#user-label {
+  width: 5rem;
+  height: 1.5rem;
+  display: inline-block;
+  position: absolute;
+  top: 2rem;
+  left: -2rem;
+  background: red;
+  font-size: 1rem;
+  -webkit-box-shadow: 0rem .5rem 2rem black;
+  box-shadow: 0rem .5rem 2rem black;
+  padding: .3rem .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+#comp-label {
+  width: 6rem;
+  height: 1.5rem;
+  display: inline-block;
+  position: absolute;
+  top: 2rem;
+  right: -2rem;
+  background: red;
+  font-size: 1rem;
+  -webkit-box-shadow: 0rem .5rem 2rem black;
+  box-shadow: 0rem .5rem 2rem black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.user-img {
+  background: red; }

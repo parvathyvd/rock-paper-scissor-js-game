@@ -9,7 +9,10 @@ h3 {
 
 h1 {
   color: #2b2b2b;
-  padding: 3rem; }
+  padding: 3rem;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
 .game__wrapper {
   margin: 5rem auto;
@@ -32,9 +35,23 @@ h1 {
     padding: 2rem;
     outline: .4rem solid #444; }
 
+.score-boared-wrapper {
+  position: relative;
+  width: 50%;
+  margin: 0 auto; }
+  .score-boared-wrapper .user-svg {
+    width: 4rem;
+    position: absolute;
+    top: 0;
+    left: -7rem; }
+  .score-boared-wrapper .display-svg {
+    width: 4rem;
+    position: absolute;
+    top: 1rem;
+    right: -8rem; }
+
 .score-board {
   background: #444;
-  width: 30%;
   margin: 0 auto;
   color: white;
   font-size: 4rem;

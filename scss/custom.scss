@@ -10,6 +10,10 @@ h3{
 h1{
     color: darken(#444, 10%);
     padding: 3rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    text-shadow:  0 .5rem  1rem rgba(0, 0, 0, 0.2);
+
 }
 .game__wrapper{
     margin: 5rem auto;
@@ -30,10 +34,29 @@ h1{
         outline: .4rem solid #444;
     }
 }
+.score-boared-wrapper{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+
+    .user-svg{
+        width:4rem;
+        position: absolute;
+        top: 0;
+        left:-7rem;
+    }
+    .display-svg{
+        width:4rem;
+        position: absolute;
+        top: 1rem;
+        right: -8rem;  
+      }
+
+}
+
 
 .score-board{
     background: #444;
-    width: 30%;
     margin: 0 auto;
     color: white;
     font-size: 4rem;

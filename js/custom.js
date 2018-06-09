@@ -10,6 +10,7 @@ var resultBlockp = document.querySelector(".result-block > h3");
 var rockDiv = document.getElementById("r");
 var paperDiv = document.getElementById("p");
 var scissorDiv = document.getElementById("s");
+var userSvg = document.querySelector(".user-svg");
 
 function letterChange(letter){
     if(letter === "r"){
@@ -30,7 +31,10 @@ function win(userChoice,computerChoice){
     resultBlockp.innerHTML = `You select ${letterChange(userChoice)} and Computer selects ${letterChange(computerChoice)} You Win`;
     var userChoiceDiv = document.getElementById(userChoice);
     userChoiceDiv.classList.add('green-glow');
+    userSvg.classList.add('green-glow');
     setTimeout(() => userChoiceDiv.classList.remove('green-glow'), 400);
+    setTimeout(() => userSvg.classList.remove('green-glow'), 700);
+
 }
 function loose(userChoice,computerChoice){
     computerScore++;

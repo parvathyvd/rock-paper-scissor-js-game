@@ -27,16 +27,17 @@ h1{
 
     svg{
         display: flex;
-        fill:#444;
+        fill:rgb(153, 41, 153);
         width: 10rem;
         height: 10rem;
         padding: 2rem;
-        outline: .4rem solid #444;
+        outline: .4rem solid rgb(153, 41, 153);
+        box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.2));
     }
 }
 .score-boared-wrapper{
     position: relative;
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
 
     .user-svg{

@@ -29,15 +29,15 @@ h1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    fill: #444;
+    fill: #992999;
     width: 10rem;
     height: 10rem;
     padding: 2rem;
-    outline: .4rem solid #444; }
+    outline: 0.4rem solid #992999; }
 
 .score-boared-wrapper {
   position: relative;
-  width: 50%;
+  width: 30%;
   margin: 0 auto; }
   .score-boared-wrapper .user-svg {
     width: 4rem;
